@@ -1,40 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🍋 Lemonade Stand (Next.js)
 
-## Getting Started
+Et simpelt og sjovt Lemonade Stand-spil bygget med **Next.js** og **Redux**.
 
-First, run the development server:
+Projektet er en del af en obligatorisk opgave og demonstrerer:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Routing med `pages/`
+- State management med Redux
+- Dynamisk visning af data
+- API-integration (TheCocktailDB)
+- Interaktive knapper med logik
+- Bonus: Antal varer i kurven og Bootstrap-styling
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🚀 Sådan kører du projektet
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. **Klon repositoriet**  
+   `git clone https://github.com/MaiDaStudent/lemonade-stand-next.git`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+2. **Gå ind i mappen**  
+   `cd lemonade-stand-next`
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Installer afhængigheder**  
+   `npm install`
 
-## Learn More
+4. **Start udviklingsserveren**  
+   `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+5. **Åbn i browser**  
+   Gå til [http://localhost:3000](http://localhost:3000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 Funktioner
 
-## Deploy on Vercel
+- Sælg lemonade og tjen penge
+- Køb citroner
+- Tilføj citron-drikke til kurven (fra ekstern API)
+- Se samlet antal varer i kurven
+- Navigation via Next.js `<Link>`
+- (Valgfrit) Bootstrap-styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 🛠 Teknologier brugt
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Bootstrap (via CDN)](https://getbootstrap.com/)
+- [TheCocktailDB API](https://www.thecocktaildb.com/)
+
+---
+
+## 📷 Screenshots
+
+![Forside](./public/screenshot-home.png)  
+![Shop](./public/screenshot-shop.png)  
+*(Screenshots kan tilføjes hvis du ønsker det)*
+
+---
+
+## 📚 Forfatter
+
+- Mai Bresson Krøner – *multimediedesigner og webudvikler*
+
+---
+
+## 📎 Licens
+
+Dette projekt er lavet som en del af et skoleforløb og er frit at bruge til læring og demonstration.
