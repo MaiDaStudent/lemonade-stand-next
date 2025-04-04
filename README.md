@@ -53,14 +53,6 @@ Projektet er en del af en obligatorisk opgave og demonstrerer:
 
 ---
 
-## 📷 Screenshots
-
-![Forside](./public/screenshot-home.png)  
-![Shop](./public/screenshot-shop.png)  
-*(Screenshots kan tilføjes hvis du ønsker det)*
-
----
-
 ## 📚 Forfatter
 
 - Mai Bresson Krøner – *multimediedesigner og webudvikler*
